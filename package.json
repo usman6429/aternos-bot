@@ -1,0 +1,25 @@
+{
+  "name": "skybot-rejoiner",
+  "version": "1.0.0",
+  "description": "Auto-rejoining Minecraft bot with Mineflayer using random usernames",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.6.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "bot",
+    "reconnect",
+    "auto-rejoin",
+    "skybot"
+  ],
+  "author": "Aman Mishra",
+  "license": "MIT"
+}
