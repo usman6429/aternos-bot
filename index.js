@@ -38,11 +38,11 @@ function startBotLoop() {
   bot = mineflayer.createBot({
     host: IP,
     port: PORT,
-    username
+    username : Afkshi
   });
 
   bot.on('spawn', () => {
-    log(`✅ ${username} spawned`);
+    log(`✅ ${Afkshi} spawned`);
     setTimeout(() => bot.chat(`/register ${PASSWORD} ${PASSWORD}`), 2000);
     setTimeout(() => bot.chat(`/login ${PASSWORD}`), 4000);
   });
